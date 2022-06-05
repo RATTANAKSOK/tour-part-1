@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: darkcyan;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 20%;
+    padding: 12px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.nav ul li a:hover {
+    background-color: green;
+}
+
+.banner {
+    height: 300px;
+    background-image: url('pic/banner.jpg');
+    background-position: top center;
+    background-size: cover;
+}
+
+.banner h1 {
+    text-align: center;
+    color: brown;
+    font-size: 56px;
+    letter-spacing: 4px;
+
+    text-shadow: 0 0 5px aliceblue;
+}
+
+.media {
+    background-color: cadetblue;
+}
+
+iframe {
+    display: block;
+    width: 75%;
+    height: 300px;
+    margin: 0 auto;
+    
+    border: 10px solid white;
+}
+
+.about {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: bisque;
+    border: 3px solid darkred;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cambodia {
+    font-size: 48px;
+    text-decoration: underline;
+    color: brown;
+}
+
+.profile {
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 360;
+    text-align: center;
+}
+
+.profile h2 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile p{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.footer {
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
